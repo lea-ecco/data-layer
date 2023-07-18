@@ -1,4 +1,4 @@
-package com.github.lea.data_layer.base
+package com.github.leaecco.data_layer.base
 
 class Message(var service: String, var action: String) {
     var message = ""

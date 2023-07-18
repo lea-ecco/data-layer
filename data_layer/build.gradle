@@ -3,11 +3,11 @@ plugins {
     id 'kotlin-android'
     id 'maven-publish'
 }
-group = 'com.github.lea'
+group = 'com.github.lea-ecco'
 version = '1.0'
 
 android {
-    namespace 'com.github.lea.data_layer'
+    namespace 'com.github.leaecco.data_layer'
     compileSdk 33
 
     defaultConfig {
@@ -16,7 +16,6 @@ android {
         versionCode 1
         versionName "1.0"
     }
-
     buildTypes {
         release {
             minifyEnabled false
@@ -47,7 +46,7 @@ afterEvaluate {
         publications {
             release(MavenPublication) {
                 from components.release
-                groupId = 'com.github.lea'
+                groupId = 'com.github.lea-ecco'
                 artifactId = 'data-layer'
                 version = '1.0'
             }

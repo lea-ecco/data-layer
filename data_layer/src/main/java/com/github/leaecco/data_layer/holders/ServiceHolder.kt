@@ -1,7 +1,7 @@
-package com.github.lea.data_layer.holders
+package com.github.leaecco.data_layer.holders
 
 import android.util.ArrayMap
-import com.github.lea.data_layer.base.DlMethod
+import com.github.leaecco.data_layer.base.DlMethod
 import java.lang.reflect.Method
 
 class ServiceHolder(val cls: Any) {

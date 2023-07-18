@@ -1,4 +1,4 @@
-package com.github.lea.data_layer.base
+package com.github.leaecco.data_layer.base
 
 abstract class Holder<T> {
     var socket: T? = null

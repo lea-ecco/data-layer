@@ -1,7 +1,7 @@
-package com.github.lea.data_layer
+package com.github.leaecco.data_layer
 
-import com.github.lea.data_layer.holders.ClientHolder
-import com.github.lea.data_layer.threads.MessageThread
+import com.github.leaecco.data_layer.holders.ClientHolder
+import com.github.leaecco.data_layer.threads.MessageThread
 
 class ClientService<T>(private var holder: ClientHolder<T>) {
     private var isWork = false

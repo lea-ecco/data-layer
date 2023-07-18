@@ -1,10 +1,10 @@
-package com.github.lea.data_layer.holders
+package com.github.leaecco.data_layer.holders
 
 import android.util.ArrayMap
 import com.google.gson.Gson
-import com.github.lea.data_layer.base.Holder
-import com.github.lea.data_layer.base.Message
-import com.github.lea.data_layer.base.Promise
+import com.github.leaecco.data_layer.base.Holder
+import com.github.leaecco.data_layer.base.Message
+import com.github.leaecco.data_layer.base.Promise
 import java.io.InputStream
 import java.io.OutputStream
 import java.lang.reflect.ParameterizedType

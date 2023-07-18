@@ -1,11 +1,11 @@
-package com.github.leaecco.data_layer.threads
+package com.github.lea_ecco.data_layer.threads
 
 import android.os.Handler
 import android.os.Looper
 import com.google.gson.Gson
-import com.github.leaecco.data_layer.base.Message
-import com.github.leaecco.data_layer.base.Promise
-import com.github.leaecco.data_layer.holders.ClientHolder
+import com.github.lea_ecco.data_layer.base.Message
+import com.github.lea_ecco.data_layer.base.Promise
+import com.github.lea_ecco.data_layer.holders.ClientHolder
 import java.lang.Integer.min
 import java.nio.ByteBuffer
 import java.nio.charset.Charset

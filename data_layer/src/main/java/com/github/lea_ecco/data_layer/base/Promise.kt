@@ -1,4 +1,4 @@
-package com.github.leaecco.data_layer.base
+package com.github.lea_ecco.data_layer.base
 
 import android.os.Handler
 import android.os.Looper

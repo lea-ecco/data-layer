@@ -7,7 +7,7 @@ group = 'com.github.lea-ecco'
 version = '1.0'
 
 android {
-    namespace 'com.github.leaecco.data_layer'
+    namespace 'com.github.lea_ecco.data_layer'
     compileSdk 33
 
     defaultConfig {

@@ -1,7 +1,7 @@
-package com.github.leaecco.data_layer.holders
+package com.github.lea_ecco.data_layer.holders
 
 import android.util.ArrayMap
-import com.github.leaecco.data_layer.base.Holder
+import com.github.lea_ecco.data_layer.base.Holder
 
 abstract class ServerHolder<T, E>: Holder<T>() {
     val clients = ArrayMap<String, ClientHolder<E>>()
